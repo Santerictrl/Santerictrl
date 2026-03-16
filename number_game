@@ -1,0 +1,7 @@
+number1 = int(input("Please choose a number: "))
+
+if number1 == 67:
+    print("Congratulations! You won the game! Well played!")
+
+else:
+    print(f"Unfortunately the number was {number1 + 1}. You lost the game :D")
